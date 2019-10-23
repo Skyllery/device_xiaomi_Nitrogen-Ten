@@ -63,7 +63,7 @@ BOARD_RAMDISK_OFFSET     := 0x01000000
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
-TARGET_KERNEL_SOURCE := kernel/xiaomi/Nitrogen
+TARGET_KERNEL_SOURCE := kernel/xiaomi/nitrogen
 TARGET_KERNEL_CONFIG := nitrogen_user_defconfig
 
 # QCOM
