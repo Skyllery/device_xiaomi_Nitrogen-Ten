@@ -22,8 +22,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
-# Inherit from whyred device
-$(call inherit-product, device/xiaomi/whyred/device.mk)
+# Inherit from nitrogen device
+$(call inherit-product, device/xiaomi/nitrogen/device.mk)
 
 # Inherit MiuiCamera repo
 $(call inherit-product, vendor/MiuiCamera/config.mk)
@@ -36,18 +36,18 @@ TARGET_GAPPS_ARCH := arm64
 IS_PHONE := true
 TARGET_BOOT_ANIMATION_RES := 1080
 
-PRODUCT_NAME := aosip_whyred
+PRODUCT_NAME := aosip_nitrogen
 PRODUCT_BRAND := Xiaomi
-PRODUCT_DEVICE := whyred
+PRODUCT_DEVICE := nitrogen
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_MODEL := Redmi Note 5
+PRODUCT_MODEL := Mi Max 3
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_DEVICE="whyred" \
-    PRODUCT_NAME="whyred" \
-    PRIVATE_BUILD_DESC="whyred-user 9 PKQ1.180904.001 V10.3.1.0.PEICNXM release-keys"
+    TARGET_DEVICE="nitrogen" \
+    PRODUCT_NAME="nitrogen" \
+    PRIVATE_BUILD_DESC="nitrogen-user 9 PKQ1.180904.001 V10.3.1.0.PEICNXM release-keys"
 
 BUILD_FINGERPRINT := "google/walleye/walleye:8.1.0/OPM1.171019.021/4565141:user/release-keys"
 

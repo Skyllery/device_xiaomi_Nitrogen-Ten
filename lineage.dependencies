@@ -1,11 +1,11 @@
 [
  {
-   "repository": "android_vendor_xiaomi_whyred",
-   "target_path": "vendor/xiaomi/whyred"
+   "repository": "android_vendor_xiaomi_nitrogen",
+   "target_path": "vendor/xiaomi/nitrogen"
  },
  {
-   "repository": "android_kernel_xiaomi_whyred",
-   "target_path": "kernel/xiaomi/whyred"
+   "repository": "android_kernel_xiaomi_nitrogen",
+   "target_path": "kernel/xiaomi/nitrogen"
  },
  {
     "repository": "android_packages_resources_devicesettings",
