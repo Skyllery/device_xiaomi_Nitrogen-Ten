@@ -28,15 +28,14 @@ $(call inherit-product, device/xiaomi/nitrogen/device.mk)
 # Inherit MiuiCamera repo
 $(call inherit-product, vendor/MiuiCamera/config.mk)
 
-# Inherit some common AOSiP stuff.
-$(call inherit-product, vendor/aosip/config/common_full_phone.mk)
-
-# Welcome in Gapps word!
-TARGET_GAPPS_ARCH := arm64
-IS_PHONE := true
+# Inherit some common Evolution X stuff
 TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_BOOT_ANIMATION_RES_EVO := true
+TARGET_GAPPS_ARCH := arm64
+CUSTOM_BUILD_TYPE := UNOFFICIAL
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-PRODUCT_NAME := aosip_nitrogen
+PRODUCT_NAME := aosp_nitrogen
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := nitrogen
 PRODUCT_MANUFACTURER := Xiaomi
