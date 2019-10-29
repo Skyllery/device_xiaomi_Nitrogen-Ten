@@ -453,3 +453,7 @@ PRODUCT_COPY_FILES += \
 # Wi-Fi Display
 PRODUCT_BOOT_JARS += \
     WfdCommon
+
+# WallpapersBReel2019
+PRODUCT_PACKAGES += \
+    WallpapersBReel2019Port
